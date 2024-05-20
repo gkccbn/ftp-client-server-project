@@ -3,7 +3,7 @@ from tkinter import messagebox
 from ftplib import FTP
 from tkinter import simpledialog
 ftp = FTP("")
-
+#functions
 def connect_ftp():
     hostname = entry_hostname.get()
     username = entry_username.get()
