@@ -4,6 +4,7 @@ from ftplib import FTP
 from tkinter import simpledialog
 ftp = FTP("")
 #functions
+#second change
 def connect_ftp():
     hostname = entry_hostname.get()
     username = entry_username.get()
